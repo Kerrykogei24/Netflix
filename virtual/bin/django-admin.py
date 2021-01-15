@@ -1,4 +1,4 @@
-#!/media/steve/New/Netflix/virtual/bin/python3
+#!/home/moringa/Music/Django/Netflix/virtual/bin/python
 # When the django-admin.py deprecation ends, remove this script.
 import warnings
 

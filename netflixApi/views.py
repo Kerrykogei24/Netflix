@@ -1,5 +1,4 @@
 from django.shortcuts import render
-from django.shortcuts import render
 import requests,json
 import os
 from decouple import config,Csv
@@ -24,7 +23,7 @@ def home(request):
     return render(request,'netflix.html',{'popular':popular,"upcoming":upcoming,"latest":latest,"toprated":topRated})
 
 def youtube(request,id):
-    yTubeKey =  config('yTubeKey')
+    yTubeKey =  config('youTubeKey')
     popular = home1(request,'popular')
     pp = ''
     for p in popular['results']:

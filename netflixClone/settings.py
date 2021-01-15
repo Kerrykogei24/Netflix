@@ -121,5 +121,5 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-TRENDING = 'https://api.themoviedb.org/3/movie/popular?api_key=9da33f270c1b9bf9a2acdf7d8b70a61b&language=en-US&page=1'
+TRENDING = 'https://api.themoviedb.org/3/movie/popular?api_key=349e511b84180acb3e41e139a07c85ed&language=en-US&page=1'
 
